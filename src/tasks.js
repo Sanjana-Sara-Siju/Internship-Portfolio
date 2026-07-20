@@ -116,12 +116,11 @@ export const tasks = [
         description: "This Python command-line utility extracts and digitizes interviewee data from an image and outputs the structured data into a JSON file.",
         techStack: {
             backend: ["Python", "Gemini API"],
-            HTMLparsing: ["BeautifulSoup"],
             commandlineparsing: ["argparse"],
             computervision: ["EasyOCR", "OpenCV", "Pillow"],
             devenvlibrary: ["python-dotenv"]
         },
-        github: "https://github.com/Sanjana-Sara-Siju/FACTS-tasks/tree/main/web-scraper-task",
+        github: "https://github.com/Sanjana-Sara-Siju/FACTS-tasks",
         videoUrl: "......................................." // Replace with your cloud storage or hosted video link
     },
 
