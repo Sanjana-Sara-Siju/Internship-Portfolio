@@ -69,7 +69,7 @@ export default function TaskViewer({ task }) {
       {/* Video placeholder */}
       <div className = "bg-zinc-900 rounded-xl overflow-hidden border border-zinc-800 aspect-video flex items-center justify-center relative shadow-inner">
         {task.videoUrl && task.videoUrl !== "......................................." ? (
-            <video controls className = "w-full h-full object-cover">
+            <video key = {task.videoUrl} controls className = "w-full h-full object-cover">
               <source src = {task.videoUrl} type = "video/mp4" />
               Your browser does not support the video tag.
             </video>
