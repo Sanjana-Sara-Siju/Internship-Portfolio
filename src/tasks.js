@@ -5,6 +5,18 @@
 export const tasks = [
 
     {
+        id: "doc-recognition-and-data-extraction-task",
+        title: "AI Document Recognizer and Data Extractor",
+        description: "A modern, AI-powered web application that dynamically analyzes, classifies, and extracts key data from any uploaded document or image and displays it in a 'form' format. Instead of relying on hardcoded schemas or predefined templates, this application leverages Mistral AI to read the document's context and automatically generate a responsive HTML form containing the extracted fields.",
+        techStack: {
+            frontend: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            backend: ["Python", "FastAPI & Uvicorn", "Mistral AI Python SDK (mistral-large-latest and pixtral-12b", "Pillow", "PyPDF"],
+        },
+        github: "https://github.com/Sanjana-Sara-Siju/FACTS-doc-recognition-and-data-extraction.git",
+        videoUrl: "......................................." // Replace with your cloud storage or hosted video link
+    },
+
+    {
         id: "mcp-server-task",
         title: "MCP Server PDF & Web Search Conversational Chatbot",
         description: "A full-stack, agentic AI application built utilizing the Model Context Protocol (MCP). This chatbot acts as an intelligent orchestrator by using Mistral AI to autonomously decide whether to answer a user's prompt directly, search an uploaded PDF document, or fetch live information from the internet.",
