@@ -13,7 +13,7 @@ export const tasks = [
             backend: ["Python", "FastAPI & Uvicorn", "Mistral AI Python SDK (mistral-large-latest and pixtral-12b", "Pillow", "PyPDF"],
         },
         github: "https://github.com/Sanjana-Sara-Siju/FACTS-doc-recognition-and-data-extraction.git",
-        videoUrl: "C:\Users\SSD\Videos\Captures\Dynamic Document Extractor - Google Chrome 2026-07-22 15-05-27.mp4" // Replace with your cloud storage or hosted video link
+        videoUrl: "/Dynamic-Document-Extractor.mp4" // Replace with your cloud storage or hosted video link
     },
 
     {
